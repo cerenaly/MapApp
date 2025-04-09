@@ -35,12 +35,19 @@ public class OverpassResponse {
         }
 
         public static class Tags {
+            @SerializedName("name")
+            private String name;
             @SerializedName("shop")
             private String shopType;
 
             public String getShopType() {
                 return shopType;
             }
+
+            public String getName() {
+                return name; // Getter metodu ekledik
+            }
+
         }
     }
 }
