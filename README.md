@@ -13,3 +13,9 @@ MapApp, kullanıcıların harita üzerinde konum bazlı işlemler yapmasını sa
 - Flutter
 - Google Maps API
 - Dart
+## 📂 Project Structure
+lib/
+├── screens/
+├── widgets/
+├── services/
+└── main.dart
